@@ -51,3 +51,25 @@ Once the server is running, open **Swagger UI** to test the API:
 ```
 http://127.0.0.1:5000/apidocs/
 ```
+
+## (Extra Credit)- AWS API Deployment Approach
+
+### **1. Database Hosting**
+- Use **Amazon RDS (PostgreSQL)** for scalable and secure data storage.
+
+### **2. API Deployment**
+- Deploy the API using **AWS Lambda** for a serverless approach or **Amazon EC2** for full infrastructure control.
+
+### **3. Data Ingestion**
+- Automate data ingestion with **AWS Glue** for batch processing.
+- Use **AWS Lambda** for real-time event-driven data processing.
+
+### **4. Containerization**
+- Use **Docker** to containerize the API, ensuring consistency and portability across environments.
+
+### **5. Scalability & Security**
+- Enable **auto-scaling** for API instances and database resources.
+- Manage access control and security with **AWS IAM** and **Secrets Manager**.
+
+---
+
