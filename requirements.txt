@@ -1,0 +1,7 @@
+flask
+flask_sqlalchemy
+flask_marshmallow
+flask_swagger_ui
+marshmallow-sqlalchemy
+psycopg2
+flasgger
